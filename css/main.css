@@ -1,0 +1,354 @@
+body {
+    margin: 0;
+    font-family: Open Sans, Arial, sans-serif;
+    background-color: #000000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 15px 10%;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    font-family: Open Sans, system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.navbar-menu a:hover {
+    text-decoration: underline;
+}
+
+.navbar-buttons {
+    display: flex;
+}
+
+.button {
+    padding: 10px 15px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.special {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+}
+
+.special:hover {
+    background-color: #66BB6A;
+}
+
+.hero {
+    background:  url('../images/ai4co_main_bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: left;
+    padding-top: 170px;
+    /* padding-left: 100px;
+    padding-right: 300px; */
+    padding-left: 10%;
+    padding-right: 30%;
+    padding-bottom: 170px;
+    /* height: 480px; */
+}
+
+.hero-content p {
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 70px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 20px;
+    margin-right: 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer; /* Changes the cursor to the pointer hand when you hover over the button */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Add styles for additional elements like GitHub stars and pip install command here */
+
+.updates-section {
+    color: #ffffff;
+    padding: 35px 0;
+}
+
+.updates-section-title {
+    padding-top: 0;
+    padding-bottom: 35px;
+}
+
+.updates-section h2 {
+    font-size: 38px;
+    margin-top: 0;
+    padding-left: 10%;
+    padding-bottom: 30px;
+    font-family: NanumMyeongjo;
+    font-weight: 100;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 10%; /* Centers the container */
+}
+
+.updates-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px; /* Space between the grid items */
+}
+
+.update-item {
+    flex: 1;
+    min-width: 50px; /* Minimum width of each item */
+    /* padding: 15px; */
+    border-radius: 5px; /* Optional rounded corners */
+}
+
+.update-item img {
+    width: 100%;
+    height: auto;
+    /* width: 50px;
+    height: 50px; */
+    border-radius: 5px; /* Optional rounded corners for images */
+}
+
+.update-content h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.update-content-title h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.update-date {
+    font-size: 0.9rem;
+}
+
+.update-link {
+    color:#fff;
+    font-size: 16px;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+.update-link:hover {
+    text-decoration: underline;
+    text-decoration-color: darkgray;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-primary:hover {
+    background-color: #66BB6A;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .updates-grid {
+        flex-direction: column;
+    }
+}
+
+hr {
+    border: none; /* Remove the default border */
+    height: 1px; /* Set the height of the line */
+    background-color: #ffffff; /* Set the color of the line */
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.site-footer {
+    background-color: #000; /* Or any color you prefer */
+    color: #fff; /* For white text */
+    padding: 40px 0;
+}
+
+.site-footer .container {
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo img {
+    width: 180px; /* Or the size you prefer */
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.footer-column h4 {
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li a {
+    color: #fff; /* For white links */
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline; /* Or any other hover effect you prefer */
+}
+
+/* Responsive styles, if needed */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-columns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-column {
+        margin-bottom: 20px;
+    }
+}
+
+.footer-bottom {
+    width: 100%;
+    border-top: 1px solid #fff; /* Light border for the top line */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Wrap for smaller screens */
+}
+
+.footer-info,
+.footer-social {
+    display: flex;
+    align-items: center;
+}
+
+.footer-info p {
+    margin-right: 30px; /* Space between text and links */
+}
+
+.legal-links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.legal-links li {
+    margin-right: 20px; /* Space between legal links */
+}
+
+.legal-links li a,
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding-left: 20px;
+}
+
+.legal-links li a:hover,
+.footer-social a:hover {
+    text-decoration: underline;
+}
+
+.back-to-top {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 10%;
+    padding-left: 80%;
+}
+
+.back-to-top:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-bottom {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-info,
+    .footer-social {
+        flex-direction: column;
+    }
+
+    .legal-links li,
+    .footer-social a {
+        margin-bottom: 10px;
+    }
+
+    .legal-links,
+    .footer-social {
+        margin-bottom: 20px;
+    }
+}
