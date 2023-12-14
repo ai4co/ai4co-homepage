@@ -16,6 +16,12 @@ body {
     height: 50px;
 }
 
+.navbar-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
 .navbar-menu {
     display: flex;
     align-items: center;
@@ -24,6 +30,12 @@ body {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.2px;
+}
+
+.navbar-dropdown {
+    display: none;
+    position: absolute;
+    right: 5%;
 }
 
 .navbar-menu a {
@@ -39,6 +51,15 @@ body {
 .navbar-buttons {
     display: flex;
 }
+
+@media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+    .navbar-menu {
+      display: none; /* Hide the dropdown by default */
+    }
+  }
 
 .button {
     padding: 10px 15px;
@@ -76,12 +97,38 @@ body {
     /* height: 480px; */
 }
 
+.hero-nobg {
+    background: #000;
+}
+
 .hero-content p {
     font-size: 48px;
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 70px;
 }
+
+.hero-content-nobg p {
+    margin-top: 0px;
+}
+
+#hero-minititle {
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 0.2px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        padding-right: 10%;
+    }
+    .hero-content p {
+        font-size: 40px;
+        line-height: 60px;
+    }
+  }
+
 
 .btn {
     display: inline-block;
@@ -96,6 +143,11 @@ body {
     border-radius: 8px;
     cursor: pointer; /* Changes the cursor to the pointer hand when you hover over the button */
     transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.btn-nobd {
+    border: none;
+    text-decoration: underline;
 }
 
 .btn:hover {
@@ -119,10 +171,18 @@ body {
     font-size: 38px;
     margin-top: 0;
     padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 30px;
     font-family: NanumMyeongjo;
     font-weight: 100;
 
+}
+
+.updates-section p {
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    font-weight: 200;
+    margin-top: 10px; 
 }
 
 .container {
@@ -143,6 +203,10 @@ body {
     border-radius: 5px; /* Optional rounded corners */
 }
 
+.update-item-lefttext {
+    padding-right: 20%;
+}
+
 .update-item img {
     width: 100%;
     height: auto;
@@ -151,10 +215,44 @@ body {
     border-radius: 5px; /* Optional rounded corners for images */
 }
 
+#ai4co-news2{
+    width: 50%;
+    height: auto;
+}
+
+pre {
+    /* overflow: auto; */
+    white-space: pre-wrap;
+    color: black;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 .update-content h3 {
     font-size: 24px;
     font-weight: 400;
     margin-top: 10px;
+}
+
+.update-content code {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #990000;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.update-content .copy-btn {
+    border: none;
+    color: #fff;
+    background-color: transparent;
+}
+
+.update-content .copy-btn img{
+    width: 18px;
+    height: auto;
 }
 
 .update-content-title h3 {
@@ -162,7 +260,7 @@ body {
     font-weight: 500;
 }
 
-.update-date {
+#update-date {
     font-size: 0.9rem;
 }
 
@@ -332,23 +430,24 @@ hr {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-    .footer-bottom {
-        justify-content: center;
-        text-align: center;
-    }
-
-    .footer-info,
-    .footer-social {
+    .site-footer .container {
+        width: 95%; /* Adjust width for smaller screens */
         flex-direction: column;
+        align-items: center;
     }
 
-    .legal-links li,
-    .footer-social a {
-        margin-bottom: 10px;
+    .footer-logo img {
+        margin-bottom: 20px; /* Add space below the logo */
     }
 
-    .legal-links,
-    .footer-social {
-        margin-bottom: 20px;
+    .footer-columns {
+        width: 100%; /* Full width for the column container */
+        align-items: left;
+    }
+
+    .footer-column {
+        margin: 0 0 20px 0; /* Adjust margin for column items */
+        align-items: baseline; /* Center-align the content */
+        min-width: 100px;
     }
 }
