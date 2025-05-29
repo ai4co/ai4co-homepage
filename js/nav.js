@@ -1,12 +1,21 @@
 document.addEventListener('DOMContentLoaded', function() {
     var menuButton = document.querySelector('.navbar-menu');
-    menuButton.addEventListener('click', function() {
-        menuButton.classList.toggle('is-active');
-    });
+    if (menuButton) {
+        menuButton.addEventListener('click', function() {
+            menuButton.classList.toggle('is-active');
+        });
+    }
 });
 
-document.querySelector('.navbar-icon').addEventListener('click', function() {
-    document.querySelector('.navbar-menu').classList.toggle('show');
+document.addEventListener('DOMContentLoaded', function() {
+    var menuIcon = document.querySelector('.navbar-icon');
+    var menuContainer = document.querySelector('.navbar-menu');
+    
+    if (menuIcon && menuContainer) {
+        menuIcon.addEventListener('click', function() {
+            menuContainer.classList.toggle('active');
+        });
+    }
 });
 
 function copyToClipboard(element) {
@@ -20,5 +29,5 @@ function copyToClipboard(element) {
   
     // Optional: Show an alert or change the button text to give feedback
     alert("Copied to clipboard");
-  }
+}
   
