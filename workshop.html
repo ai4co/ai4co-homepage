@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1st Workshop on Neural Combinatorial Optimization (NCO 2025)</title>
+    <title>1st Workshop on Machine Learning and Combinatorial Optimization (ML&CO 2025)</title>
     <link rel="icon" type="image/svg" href="images/ai4co_icon.svg">
     <link rel="stylesheet" href="css/workshop.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar">
         <div class="navbar-brand">
-            <a href="https://ai4co.org/workshop" target="_blank">NCO @ NeurIPS'25</a>
+            <a href="https://ai4co.org/workshop" target="_blank">ML&CO @ NeurIPS'25</a>
         </div>
         <div class="navbar-icon">Menu</div>
         <div class="navbar-menu">
@@ -29,96 +29,132 @@
                 <img src="assets/images/neurips-logo.svg" alt="NeurIPS Logo">
                 <span>Workshop</span>
             </div>
-            <div class="hero-title">1st Workshop on Neural Combinatorial Optimization</div>
+            <div class="hero-title">1st Workshop on Machine Learning and Combinatorial Optimization</div>
             <div class="hero-details"><i>Dec 7th, 2025, San Diego Convention Center, San Diego, USA</i></div>
         </div>
     </section>
 
     <section class="content-section">
         <h2>Overview</h2>
-        <p>
-            Over the past decade, machine learning has transformed the landscape of combinatorial optimization, giving rise to the emerging <strong>Neural Combinatorial Optimization (NCO)</strong>. Recent advances in NCO have sparked excitement for their potential to revolutionize how we solve complex NP-hard problems by automating algorithm design and providing more efficient, scalable, and adaptable solutions. NCO has demonstrated impressive potential across various subdomains and is on a promising path toward achieving significant real-world impact. The 1st workshop on Neural Combinatorial Optimization (NCO 2025) at ICLR will showcase recent breakthroughs, discuss key challenges, and outline a roadmap to unlock NCO's full practical potential.
+        <p class="tagline">
+            <strong>Bridging Machine Learning (ML) & Combinatorial Optimization (CO): from ML for CO to CO for ML. Fostering collaboration for breakthroughs, foundation models & real-world impact.</strong>
         </p>
         <p>
-            The first part of the workshop will bring together experts from both industry and academia to highlight recent advances in NCO and to discuss leading works related to machine learning (e.g., autoregressive models, diffusion models) and operations research (e.g., scheduling, routing, mixed-integer programming). The focus will be on how these approaches can transform NCO applications to create impact across various domains, including transportation, manufacturing, biology, robotics, etc., all involving solving complex CO problems. We will identify key challenges and opportunities for NCO to achieve real-world impact and collaboratively shape the future. The first panel discussion focuses on: <em>"What are the challenges and opportunities for NCO solvers to achieve real-world impact?"</em>
+            Combinatorial optimization (CO) addresses diverse real-world challenges spanning vehicle routing, chip design, smart city planning, and drug discovery. However, it has been a long-standing challenge to develop effective heuristics in solving different CO problems due to their discrete and non-convex nature, which typically demands significant human effort. In recent years, AI has increasingly contributed to solving CO problems, bringing learning-based heuristics, reinforcement learning, and neural-guided search into the mix. This makes CO not only practical but also fertile ground for methodologically impactful research.
         </p>
         <p>
-            The second part of our workshop will then discuss the emerging trend of developing Foundation Models (FMs) for combinatorial optimization -- a crucial step toward enabling NCO to be easily adapted for complex, multifaceted, real-world scenarios. We will also center on how foundation models from other fields, like Large Language Models (LLMs), can enhance decision-making and uncover new optimizers/knowledge to advance NCO applications. Achieving such breakthroughs would represent a quantum leap in the field for both research and practice.
+            At the same time, many core AI challenges can be formulated as CO problems. Examples include (i) discrete sampling: LLM decoding and beam search, discrete diffusion models; (ii) neural‐network design: model pruning, model merging, neural architecture search; and (iii) matching/alignment tasks: object detection, entity matching, cross‐domain alignment. These are not edge cases but fundamental, high‐impact tasks at the heart of modern AI systems.
+        </p>
+        <p>
+            This workshop aims to bridge the gap between the CO and AI communities and encourage deeper collaboration. To highlight impact in both directions, we will feature invited speakers from two complementary tracks: <em>(a) ML for CO Track</em>, with researchers advancing and applying ML methods for CO; and <em>(b) CO for ML Track</em>, with leading researchers introducing powerful tools that can revolutionize AI applications, and particularly advanced search methodologies.
         </p>
     </section>
 
     <section class="content-section">
         <h2>Scope and Goals</h2>
-        <ul class="scope-list">
-            <li>
-                <strong>Address Real-World Deployment Challenges:</strong>
-                <p>Identify the key barriers to applying neural combinatorial optimization methods in real-world scenarios. Discussions will focus on overcoming issues such as scalability, generalization, interpretability, and the gap between academic research and industry needs, with the goal of driving real-world impact.</p>
-            </li>
-            <li>
-                <strong>Explore Foundation Models in NCO:</strong>
-                <p>Discuss opportunities and challenges of creating foundation models that can generalize across a wide range of NP-hard combinatorial optimization problems. We will cover key design principles, potential architectures, and how these models can be scaled to real-world applications, drawing parallels to the success of foundation models in other AI domains.</p>
-            </li>
-            <li>
-                <strong>Foster Interdisciplinary Collaboration:</strong>
-                <p>Strengthen connections between NCO, Machine Learning (ML), Operations Research (OR) and various application communities to foster interdisciplinary collaboration, while also enhancing engagement and discussions between NCO researchers and industry participants. The workshop will provide a forum for exchanging ideas, sharing knowledge, and fostering partnerships that can accelerate progress on joint research efforts and applications.</p>
-            </li>
-            <li>
-                <strong>Promote Diversity and Inclusion:</strong>
-                <p>We are dedicated to supporting underrepresented groups in AI, ML, and OR through the tiny paper trac and discussions across groups. Diversity and inclusion have been important guiding principles in the organization of this workshop. Additionally, through poster sessions and other workshop activities, we will actively highlight the contributions of underrepresented researchers, providing them with opportunities to engage with the broader community.</p>
-            </li>
-        </ul>
+        <p>
+            This workshop explores the growing intersection of machine learning (ML) and combinatorial optimization (CO), with a focus on both ML4CO and CO4ML. We welcome contributions across a wide range of topics within <strong>ML4CO</strong>, including but not limited to <em>Neural-based CO Solvers</em>, <em>GPU-accelerated solvers</em>, <em>Foundation Models for CO</em>, <em>LLM for CO</em>, and <em>Learning-guided Optimization</em>. On the <strong>CO4ML</strong> side, we invite work that applies combinatorial techniques to solve structured machine learning tasks, such as <em>Neural-Network Design</em>, <em>Matching/Alignment tasks</em>, and <em>CO for Discrete Sampling</em>.
+        </p>
+        <p>
+            By bringing together these communities, we aim to foster new collaborations and inspire innovative research directions at the intersection of ML and CO. By fostering shared understanding and encouraging contributions to common infrastructure—such as benchmarks, scalable tools, and system-level integrations—we hope to accelerate mutual progress and strengthen the foundation for future breakthroughs.
+        </p>
     </section>
 
     <section class="content-section" id="speakers">
         <h2>Speakers</h2>
-        <!-- <p class="speakers-intro">The entire event will be live-streamed with remote Q&A support; slides and recordings will be available on the workshop website (if possible).</p> -->
         
         <div class="speaker">
             <div class="speaker-image">
-                <img src="assets/photos/avatar-placeholder.png" alt="Invited Speaker">
+                <img src="assets/photos/speakers/dimitri-bertsekas.jpeg" alt="Dimitri Bertsekas">
             </div>
             <div class="speaker-content">
-                <div class="speaker-name">Invited Speaker</div>
-                <div class="speaker-affiliation">MIT</div>
+                <div class="speaker-name"><a target="_blank" href="https://www.mit.edu/~dimitrib/home.html">Dimitri Bertsekas</a></div>
+                <div class="speaker-affiliation">Arizona State University</div>
                 <div class="speaker-bio">
-                    Placeholder content for the invited speaker. 
-                    Over the past decade, machine learning has transformed the landscape of combinatorial optimization, giving rise to the emerging <strong>Neural Combinatorial Optimization (NCO)</strong>. Recent advances in NCO have sparked excitement for their potential to revolutionize how we solve complex NP-hard problems by automating algorithm design and providing more efficient, scalable, and adaptable solutions. NCO has demonstrated impressive potential across various subdomains and is on a promising path toward achieving significant real-world impact.
+                    Dimitri Bertsekas is a distinguished computational scientist and Fulton Professor of Computational Decision Making at Arizona State University. Previously, he spent four decades at MIT (1979-2019), following earlier faculty positions at Stanford University and the University of Illinois, Urbana. He has authored twenty influential books and research monographs, including seminal works on dynamic programming, reinforcement learning, and convex optimization. He earned numerous prestigious awards, including the Khachiyan Prize for Life-Time Accomplishments in Optimization (2014).
                 </div>
                 <div class="speaker-presentation">
-                    Placeholder content for the invited speaker. 
+                    <strong>Topic:</strong> Reinforcement Learning, Dynamic Programming, and Model Predictive Control.
                 </div>
             </div>
         </div>
 
         <div class="speaker">
             <div class="speaker-image">
-                <img src="assets/photos/avatar-placeholder.png" alt="Invited Speaker">
+                <img src="assets/photos/speakers/christopher-morris.jpg" alt="Christopher Morris">
             </div>
             <div class="speaker-content">
-                <div class="speaker-name">Invited Speaker</div>
-                <div class="speaker-affiliation">Stanford, Google</div>
+                <div class="speaker-name"><a target="_blank" href="https://chrsmrrs.github.io/">Christopher Morris</a></div>
+                <div class="speaker-affiliation">RWTH Aachen University</div>
                 <div class="speaker-bio">
-                    Placeholder content for the invited speaker. 
-                    Over the past decade, machine learning has transformed the landscape of combinatorial optimization, giving rise to the emerging <strong>Neural Combinatorial Optimization (NCO)</strong>. Recent advances in NCO have sparked excitement for their potential to revolutionize how we solve complex NP-hard problems by automating algorithm design and providing more efficient, scalable, and adaptable solutions. NCO has demonstrated impressive potential across various subdomains and is on a promising path toward achieving significant real-world impact.
+                    Christopher Morris is an Assistant Professor at RWTH Aachen University, where he leads the Learning on Graphs (LoG) group and holds a DFG Emmy Noether Fellowship. His research focuses on graph representation learning and the intersection of machine learning with combinatorial optimization. Before RWTH, he was a postdoc at Mila - Quebec AI Institute and McGill University, after receiving his Ph.D. from TU Dortmund University.
                 </div>
                 <div class="speaker-presentation">
-                    Placeholder content for the invited speaker. 
+                    <strong>Topic:</strong> The Connection between ILPs and MPNNs.
                 </div>
             </div>
         </div>
 
         <div class="speaker">
             <div class="speaker-image">
-                <img src="assets/photos/avatar-placeholder.png" alt="Other Speakers">
+                <img src="assets/photos/speakers/yingqian-zhang.jpg" alt="Yingqian Zhang">
             </div>
             <div class="speaker-content">
-                <div class="speaker-name">Other Speakers</div>
-                <div class="speaker-affiliation">Organizations</div>
+                <div class="speaker-name"><a target="_blank" href="https://www.tue.nl/en/research/researchers/yingqian-zhang">Yingqian Zhang</a></div>
+                <div class="speaker-affiliation">Eindhoven University of Technology</div>
                 <div class="speaker-bio">
-                    Here is the list of speakers who will be presenting their work at the workshop.
+                    Yingqian Zhang is an Associate Professor in the Information Systems group at Eindhoven University of Technology (TU/e). She develops AI solutions for decision-making, focusing on combining machine learning and deep reinforcement learning with (trustworthy) data-driven optimization and socially aware algorithms. Her work is applied to real-world challenges in smart mobility, sustainable logistics, and the energy transition.
                 </div>
                 <div class="speaker-presentation">
-                    Here is the topic of their presentation.
+                    <strong>Topic:</strong> Application of GNNs and LLMs in Solving Real-World CO Problems.
+                </div>
+            </div>
+        </div>
+
+        <div class="speaker">
+            <div class="speaker-image">
+                <img src="assets/photos/speakers/yuandong-tian.jpg" alt="Yuandong Tian">
+            </div>
+            <div class="speaker-content">
+                <div class="speaker-name"><a target="_blank" href="https://yuandong-tian.com/">Yuandong Tian</a></div>
+                <div class="speaker-affiliation">Meta GenAI</div>
+                <div class="speaker-bio">
+                    Yuandong Tian is a Research Scientist Director in Meta GenAI, leading a group for Llama reasoning. His research direction covers multiple aspects of decision making, including reinforcement learning, planning and efficiency, as well as theoretical understanding of LLMs. Prior to that, he worked in Google Self-driving Car team in 2013-2014 and received a Ph.D in Robotics Institute, Carnegie Mellon University in 2013.
+                </div>
+                <div class="speaker-presentation">
+                    <strong>Topic:</strong> Advancing LLMs and Reasoning with Optimization.
+                </div>
+            </div>
+        </div>
+
+        <div class="speaker">
+            <div class="speaker-image">
+                <img src="assets/photos/speakers/yiming-yang.jpg" alt="Yiming Yang">
+            </div>
+            <div class="speaker-content">
+                <div class="speaker-name"><a target="_blank" href="https://www.cs.cmu.edu/~yiming/">Yiming Yang</a></div>
+                <div class="speaker-affiliation">Carnegie Mellon University</div>
+                <div class="speaker-bio">
+                    Yiming Yang is a Full Professor at Carnegie Mellon University (CMU), affiliated with both the Language Technologies Institute and the Machine Learning Department. Her research interests span large language models, multimodal foundation models, and generative AI for science. She has published over 400 papers, with multiple best paper awards at KDIR, SIGKDD, IJCAI, SCAMC and NCIP.
+                </div>
+                <div class="speaker-presentation">
+                    <strong>Topic:</strong> ML-Guided Sampling Methods for Combinatorial Optimization.
+                </div>
+            </div>
+        </div>
+
+        <div class="speaker">
+            <div class="speaker-image">
+                <img src="assets/photos/speakers/bistra-dilkina.jpg" alt="Bistra Dilkina">
+            </div>
+            <div class="speaker-content">
+                <div class="speaker-name"><a target="_blank" href="https://viterbi.usc.edu/directory/faculty/Dilkina/Bistra">Bistra Dilkina</a></div>
+                <div class="speaker-affiliation">University of Southern California</div>
+                <div class="speaker-bio">
+                    Bistra Dilkina is an Associate Professor of Computer Science at the University of Southern California. She is also the co-Director of the USC Center for AI in Society (CAIS), a joint effort between the USC Viterbi School of Engineering and the USC Suzanne Dworak-Peck School of Social Work. She received her PhD from Cornell University in 2012, and was a Post-Doctoral Associate at the Institute for Computational Sustainability until 2013. Her work spans discrete optimization, network design, stochastic optimization, and machine learning.
+                </div>
+                <div class="speaker-presentation">
+                    <strong>Topic:</strong> ML-Guided MIP solving via Contrastive Loss.
                 </div>
             </div>
         </div>
@@ -126,15 +162,9 @@
 
     <section class="content-section" id="financial-support">
         <h2>Financial Support</h2>
-        <p>We plan to offer the following financial support: 1) <strong>Registration Fee Grants</strong> for individuals experiencing economic hardship and members of underrepresented groups (with approximately 10 to 15 recipients), and 2) a <strong>Best Student Paper Award</strong>. We are pleased to announce that the following companies have agreed to offer financial sponsorship:</p>
+        <p>We plan to offer the following financial support: 1) <strong>Registration Fee Grants</strong> for individuals experiencing economic hardship and members of underrepresented groups, and 2) a <strong>Best Paper Award</strong>. We are pleased to announce that the following companies have agreed to offer financial sponsorship:</p>
         
         <div class="sponsors-grid">
-            <div class="sponsor">
-                <div class="sponsor-logo">
-                    <img src="assets/logos/instadeep-logo.png" alt="InstaDeep Logo">
-                </div>
-                <!-- <div class="sponsor-name">InstaDeep</div> -->
-            </div>
             <div class="sponsor">
                 <div class="sponsor-logo">
                     <img src="assets/logos/omelet-logo.png" alt="OMELET Logo">
@@ -142,6 +172,8 @@
                 <!-- <div class="sponsor-name">OMELET</div> -->
             </div>
         </div>
+        
+        <p>We plan to seek additional sponsorships from leading companies to further broaden the workshop's accessibility.</p>
     </section>
 
     <section class="content-section" id="call-for-papers">
@@ -154,9 +186,9 @@
                 <li><strong>Formatting:</strong> <a href="https://media.neurips.cc/Conferences/NeurIPS2025/Styles.zip">NeurIPS latex style</a>. Please change the footnote to reflect the name of the workshop.</li>
                 <li><strong>Dual Submission Policy:</strong> We accept submissions of ongoing unpublished work and work that is currently under submission.</li>
                 <li><strong>No Proceedings:</strong> The workshop is non-archival, which means you can submit the same or extended work as a publication to other venues after the workshop.</li>
-                <li><strong>Submission Deadline:</strong> July 25, AoE, 2025</li>
-                <li><strong>Notification Deadline:</strong> October 9, 2025</li>
-                <li><strong>Camera-Ready Deadline:</strong> November 19, 2025</li>
+                <li><strong>Submission Deadline:</strong> August 22, AoE, 2025</li>
+                <li><strong>Notification Deadline:</strong> September 22, AoE, 2025</li>
+                <li><strong>Camera-Ready Deadline:</strong> To be announced</li>
                 <li><strong>Submission Portal:</strong> <a href="#">OpenReview</a></li>
             </ul>
         </div>
@@ -186,114 +218,107 @@
         <table class="schedule-table">
             <thead>
                 <tr>
-                    <th>Time (SGT)</th>
+                    <th>Time (PDT)</th>
                     <th>Event</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td class="time-cell">08:50 - 09:00</td>
+                    <td class="time-cell">08:15 - 08:30</td>
                     <td class="event-cell">
                         <div class="event-type">Opening</div>
                         <div class="event-title">Opening Remarks</div>
                     </td>
                 </tr>
                 <tr>
+                    <td class="time-cell">08:30 - 09:00</td>
+                    <td class="event-cell">
+                        <div class="event-type">Morning Keynote</div>
+                        <div class="event-title"><span class="event-speaker">Dimitri Bertsekas</span></div>
+                    </td>
+                </tr>
+                <tr>
                     <td class="time-cell">09:00 - 09:30</td>
                     <td class="event-cell">
-                        <div class="event-type">Invited Talk</div>
-                        <div class="event-title"><span class="event-speaker">Wouter Kool</span></div>
+                        <div class="event-type">Morning Keynote</div>
+                        <div class="event-title"><span class="event-speaker">Christopher Morris</span></div>
                     </td>
                 </tr>
                 <tr>
                     <td class="time-cell">09:30 - 10:00</td>
                     <td class="event-cell">
-                        <div class="event-type">Invited Talk</div>
-                        <div class="event-title"><span class="event-speaker">Shikha Surana</span></div>
+                        <div class="event-type">Morning Keynote</div>
+                        <div class="event-title"><span class="event-speaker">Yingqian Zhang</span></div>
                     </td>
                 </tr>
                 <tr>
-                    <td class="time-cell">10:00 - 10:30</td>
+                    <td class="time-cell">10:00 - 10:20</td>
                     <td class="event-cell">
-                        <div class="event-type">Invited Talk</div>
-                        <div class="event-title"><span class="event-speaker">Junchi Yan</span></div>
+                        <div class="event-type">Break</div>
+                        <div class="event-title">Coffee Break</div>
                     </td>
                 </tr>
                 <tr>
-                    <td class="time-cell">10:30 - 11:00</td>
-                    <td class="event-cell">
-                        <div class="event-type">Invited Talk</div>
-                        <div class="event-title"><span class="event-speaker">Hyeonah Kim</span></div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="time-cell">11:00 - 11:30</td>
-                    <td class="event-cell">
-                        <div class="event-type">Panel Discussion</div>
-                        <div class="event-title">"Challenges and Opportunities for Real-World Impact"</div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="time-cell">11:30 - 12:30</td>
+                    <td class="time-cell">10:20 - 11:00</td>
                     <td class="event-cell">
                         <div class="event-type">Session</div>
-                        <div class="event-title">Tiny Paper + Poster Session 1</div>
+                        <div class="event-title">Oral Presentations (8 min each, 5 selected workshop papers)</div>
                     </td>
                 </tr>
                 <tr>
-                    <td class="time-cell">12:30 - 13:30</td>
+                    <td class="time-cell">11:00 - 12:30</td>
+                    <td class="event-cell">
+                        <div class="event-type">Session</div>
+                        <div class="event-title">Poster Session for Workshop Papers</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="time-cell">12:30 - 14:00</td>
                     <td class="event-cell">
                         <div class="event-type">Break</div>
                         <div class="event-title">Lunch Break</div>
                     </td>
                 </tr>
                 <tr>
-                    <td class="time-cell">13:30 - 14:30</td>
+                    <td class="time-cell">14:00 - 14:30</td>
                     <td class="event-cell">
-                        <div class="event-type">Session</div>
-                        <div class="event-title">Tiny Paper + Poster Session 2</div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="time-cell">14:30 - 15:30</td>
-                    <td class="event-cell">
-                        <div class="event-type">Session</div>
-                        <div class="event-title">Contributed Talks (× 6, 10 min each; 4 Workshop Papers + 2 Tiny Papers)</div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="time-cell">15:30 - 16:00</td>
-                    <td class="event-cell">
-                        <div class="event-type">Invited Talk</div>
+                        <div class="event-type">Afternoon Keynote</div>
                         <div class="event-title"><span class="event-speaker">Yuandong Tian</span></div>
                     </td>
                 </tr>
                 <tr>
-                    <td class="time-cell">16:00 - 16:30</td>
+                    <td class="time-cell">14:30 - 15:00</td>
                     <td class="event-cell">
-                        <div class="event-type">Invited Talk</div>
-                        <div class="event-title"><span class="event-speaker">Darko Drakulic</span></div>
+                        <div class="event-type">Afternoon Keynote</div>
+                        <div class="event-title"><span class="event-speaker">Yiming Yang</span></div>
                     </td>
                 </tr>
                 <tr>
-                    <td class="time-cell">16:30 - 17:00</td>
+                    <td class="time-cell">15:00 - 15:30</td>
                     <td class="event-cell">
-                        <div class="event-type">Invited Talk</div>
-                        <div class="event-title"><span class="event-speaker">Yingqian Zhang</span></div>
+                        <div class="event-type">Afternoon Keynote</div>
+                        <div class="event-title"><span class="event-speaker">Bistra Dilkina</span></div>
                     </td>
                 </tr>
                 <tr>
-                    <td class="time-cell">17:00 - 17:50</td>
+                    <td class="time-cell">15:30 - 16:30</td>
+                    <td class="event-cell">
+                        <div class="event-type">Session</div>
+                        <div class="event-title">Breakout Roundtable Sessions: "ML for CO" and "CO for ML"</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="time-cell">16:30 - 17:30</td>
                     <td class="event-cell">
                         <div class="event-type">Panel Discussion</div>
-                        <div class="event-title">"The Role of Foundation Models in CO"</div>
+                        <div class="event-title">"What are the Killer Apps of ML for CO and CO for ML?"</div>
                     </td>
                 </tr>
                 <tr>
-                    <td class="time-cell">17:50 - 18:00</td>
+                    <td class="time-cell">17:30 - 18:00</td>
                     <td class="event-cell">
                         <div class="event-type">Closing</div>
-                        <div class="event-title">Closing Remarks</div>
+                        <div class="event-title">Closing Remarks and Social Events</div>
                     </td>
                 </tr>
             </tbody>
@@ -305,48 +330,109 @@
         <div class="organizers-grid">
             <div class="organizer">
                 <div class="organizer-image">
-                    <img src="assets/photos/avatar-placeholder.png" alt="Sirui Li">
+                    <img src="assets/photos/organizers/sirui-li.jpg" alt="Sirui Li">
                 </div>
                 <div class="organizer-name">Sirui Li</div>
-                <div class="organizer-affiliation">PhD Student, MIT</div>
+                <div class="organizer-affiliation">Senior Research Engineer, Microsoft Research</div>
             </div>
             <div class="organizer">
                 <div class="organizer-image">
-                    <img src="assets/photos/avatar-placeholder.png" alt="Federico Berto">
+                    <img src="assets/photos/organizers/federico-berto.jpg" alt="Federico Berto">
                 </div>
                 <div class="organizer-name">Federico Berto</div>
                 <div class="organizer-affiliation">PhD Student, KAIST</div>
             </div>
             <div class="organizer">
                 <div class="organizer-image">
-                    <img src="assets/photos/avatar-placeholder.png" alt="Minsu Kim">
-                </div>
-                <div class="organizer-name">Minsu Kim</div>
-                <div class="organizer-affiliation">PhD Student, KAIST</div>
-            </div>
-            <div class="organizer">
-                <div class="organizer-image">
-                    <img src="assets/photos/avatar-placeholder.png" alt="Andre Hottung">
-                </div>
-                <div class="organizer-name">Andre Hottung</div>
-                <div class="organizer-affiliation">Postdoc, Bielefeld University</div>
-            </div>
-            <div class="organizer">
-                <div class="organizer-image">
-                    <img src="assets/photos/avatar-placeholder.png" alt="Yining Ma">
+                    <img src="assets/photos/organizers/yining-ma.jpg" alt="Yining Ma">
                 </div>
                 <div class="organizer-name">Yining Ma</div>
-                <div class="organizer-affiliation">Postdoc, MIT</div>
+                <div class="organizer-affiliation">Postdoctoral Associate, MIT</div>
             </div>
             <div class="organizer">
                 <div class="organizer-image">
-                    <img src="assets/photos/avatar-placeholder.png" alt="Cathy Wu">
+                    <img src="assets/photos/organizers/cathy-wu.jpg" alt="Cathy Wu">
                 </div>
                 <div class="organizer-name">Cathy Wu</div>
                 <div class="organizer-affiliation">Associate Professor, MIT</div>
             </div>
+            <div class="organizer">
+                <div class="organizer-image">
+                    <img src="assets/photos/organizers/ido-greenberg.jpg" alt="Ido Greenberg">
+                </div>
+                <div class="organizer-name">Ido Greenberg</div>
+                <div class="organizer-affiliation">Senior Research Scientist, NVIDIA</div>
+            </div>
+            <div class="organizer">
+                <div class="organizer-image">
+                    <img src="assets/photos/organizers/eli-meirom.jpg" alt="Eli Meirom">
+                </div>
+                <div class="organizer-name">Eli Meirom</div>
+                <div class="organizer-affiliation">Senior Research Scientist, NVIDIA</div>
+            </div>
+            <div class="organizer">
+                <div class="organizer-image">
+                    <img src="assets/photos/organizers/fei-liu.jpg" alt="Fei Liu">
+                </div>
+                <div class="organizer-name">Fei Liu</div>
+                <div class="organizer-affiliation">Postdoctoral Researcher, CityUHK</div>
+            </div>
+            <div class="organizer">
+                <div class="organizer-image">
+                    <img src="assets/photos/organizers/chuanbo-hua.jpg" alt="Chuanbo Hua">
+                </div>
+                <div class="organizer-name">Chuanbo Hua</div>
+                <div class="organizer-affiliation">PhD Student, KAIST</div>
+            </div>
+            <div class="organizer">
+                <div class="organizer-image">
+                    <img src="assets/photos/organizers/shengyu-feng.jpg" alt="Shengyu Feng">
+                </div>
+                <div class="organizer-name">Shengyu Feng</div>
+                <div class="organizer-affiliation">PhD Student, CMU</div>
+            </div>
+            <div class="organizer">
+                <div class="organizer-image">
+                    <img src="assets/photos/organizers/weiwei-sun.jpg" alt="Weiwei Sun">
+                </div>
+                <div class="organizer-name">Weiwei Sun</div>
+                <div class="organizer-affiliation">PhD Student, CMU</div>
+            </div>
+            <div class="organizer">
+                <div class="organizer-image">
+                    <img src="assets/photos/organizers/gal-chechik.jpg" alt="Gal Chechik">
+                </div>
+                <div class="organizer-name">Gal Chechik</div>
+                <div class="organizer-affiliation">Professor, Bar-Ilan University & Director of AI, NVIDIA</div>
+            </div>
+            <div class="organizer">
+                <div class="organizer-image">
+                    <img src="assets/photos/organizers/jinkyoo-park.jpg" alt="Jinkyoo Park">
+                </div>
+                <div class="organizer-name">Jinkyoo Park</div>
+                <div class="organizer-affiliation">Founder & CEO, Omelet & Associate Professor, KAIST</div>
+            </div>
         </div>
     </section>
+
+    <section class="content-section" id="community-building">
+        <h2>Community Building</h2>
+        <p>
+            Collaboration across machine learning, operations research, and diverse ML applications is essential for the success of ML and CO. This workshop will serve as a platform to spark dialogue, inspire novel solutions, and drive future advances. We aim to build lasting connections among researchers, practitioners, and industry professionals. Designed as the start of an ongoing workshop series, we will foster a growing, supportive community with long-term engagement.
+        </p>
+        <p>
+            We have launched the <strong>AI4CO Community</strong> which includes an active Slack channel that already hosts 330+ members and is open to all interested in ongoing collaboration. Join our community to stay connected with the latest developments in the intersection of AI and combinatorial optimization.
+        </p>
+        <!-- <div class="community-links">
+            <a href="https://github.com/ai4co" class="community-link">
+                <strong>GitHub:</strong> Explore our open-source projects and resources
+            </a>
+            <a href="https://join.slack.com/t/rl4co/shared_invite/zt-1ytz2c1v4-0IkQ8NQH4TRXIX8PrRmDhQ" class="community-link">
+                <strong>Slack:</strong> Join the discussion with 330+ active members
+            </a>
+        </div> -->
+    </section>
+
 
     <section class="content-section" id="venue">
         <h2>Venue</h2>
@@ -389,7 +475,7 @@
                         <ul>
                             <li><a href="https://github.com/ai4co">GitHub <svg data-v-67d7128c="" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="a-icon--arrow-north-east400 a-icon--text a-icon--no-align top-[0.05em] relative f-ui-1 ml-2 -mr-4" data-new="" aria-hidden="true" style="width: 1em; height: 1em;"><polygon data-v-67d7128c="" fill="currentColor" points="5 4.31 5 5.69 9.33 5.69 2.51 12.51 3.49 13.49 10.31 6.67 10.31 11 11.69 11 11.69 4.31 5 4.31"></polygon></svg></a></li>
                             <li><a href="https://join.slack.com/t/rl4co/shared_invite/zt-1ytz2c1v4-0IkQ8NQH4TRXIX8PrRmDhQ">Slack <svg data-v-67d7128c="" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="a-icon--arrow-north-east400 a-icon--text a-icon--no-align top-[0.05em] relative f-ui-1 ml-2 -mr-4" data-new="" aria-hidden="true" style="width: 1em; height: 1em;"><polygon data-v-67d7128c="" fill="currentColor" points="5 4.31 5 5.69 9.33 5.69 2.51 12.51 3.49 13.49 10.31 6.67 10.31 11 11.69 11 11.69 4.31 5 4.31"></polygon></svg></a></li>
-                            <li><a href="mailto:nco.neurips.2025@gmail.com">Contact <svg data-v-67d7128c="" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="a-icon--arrow-north-east400 a-icon--text a-icon--no-align top-[0.05em] relative f-ui-1 ml-2 -mr-4" data-new="" aria-hidden="true" style="width: 1em; height: 1em;"><polygon data-v-67d7128c="" fill="currentColor" points="5 4.31 5 5.69 9.33 5.69 2.51 12.51 3.49 13.49 10.31 6.67 10.31 11 11.69 11 11.69 4.31 5 4.31"></polygon></svg></a></li>
+                            <li><a href="mailto:ml4co.neurips.2025@gmail.com">Contact <svg data-v-67d7128c="" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="a-icon--arrow-north-east400 a-icon--text a-icon--no-align top-[0.05em] relative f-ui-1 ml-2 -mr-4" data-new="" aria-hidden="true" style="width: 1em; height: 1em;"><polygon data-v-67d7128c="" fill="currentColor" points="5 4.31 5 5.69 9.33 5.69 2.51 12.51 3.49 13.49 10.31 6.67 10.31 11 11.69 11 11.69 4.31 5 4.31"></polygon></svg></a></li>
                         </ul>
                     </div>
                 </div>

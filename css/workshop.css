@@ -376,8 +376,8 @@ body {
 
 .speaker-image {
     flex-shrink: 0;
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 270px;
     border-radius: 8px;
     overflow: hidden;
 }
@@ -390,6 +390,10 @@ body {
 
 .speaker-content {
     flex: 1;
+}
+
+.speaker-content a {
+    color: #DC3512;
 }
 
 .speaker-name {
@@ -577,13 +581,14 @@ body {
 }
 
 .event-speaker {
-    color: #007bff;
+    color: #DC3512;
     text-decoration: underline;
-    text-decoration-color: #007bff;
+    text-decoration-color: #DC3512;
 }
 
 .event-speaker:hover {
-    color: #0056b3;
+    color: #ff421d;
+    text-decoration-color: #ff421d;
 }
 
 /* Venue Section */

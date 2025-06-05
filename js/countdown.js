@@ -1,8 +1,8 @@
 // Workshop Countdown Timer
 const deadlines = {
-    submission: new Date('2025-07-25T23:59:59Z'), // May 25, 2025 AoE
-    notification: new Date('2025-10-09T23:59:59Z'), // June 9, 2025
-    cameraReady: new Date('2025-11-19T23:59:59Z'), // June 19, 2025
+    submission: new Date('2025-08-22T23:59:59Z'), // August 22, 2025 AoE
+    notification: new Date('2025-09-22T23:59:59Z'), // September 22, 2025 AoE
+    cameraReady: new Date('2025-11-19T23:59:59Z'), // November 19, 2025 AoE
     workshop: new Date('2025-12-07T08:00:00Z') // Workshop day
 };
 
