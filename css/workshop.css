@@ -132,7 +132,7 @@ body {
 }
 
 .hero-subtitle img {
-    height: 100px;
+    height: 50px;
     width: auto;
     filter: brightness(0) invert(1);
 }
