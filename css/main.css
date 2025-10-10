@@ -260,6 +260,16 @@ pre {
     font-weight: 500;
 }
 
+.update-content-title h3 a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.update-content-title h3 a:hover {
+    text-decoration: underline;
+    text-decoration-color: darkgray;
+}
+
 #update-date {
     font-size: 0.9rem;
 }
