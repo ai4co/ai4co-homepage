@@ -1,9 +1,9 @@
 // Workshop Countdown Timer
 const deadlines = {
-    submission: new Date('2026-02-15T23:59:59Z'), // February 15, 2026 AoE
-    notification: new Date('2026-03-15T23:59:59Z'), // March 15, 2026 AoE
-    cameraReady: new Date('2026-04-01T23:59:59Z'), // April 1, 2026 AoE
-    workshop: new Date('2026-04-25T08:00:00Z') // Workshop day (assuming April 25, 2026)
+    submission: new Date('2026-04-15T23:59:59Z'), // February 15, 2026 AoE
+    notification: new Date('2026-05-15T23:59:59Z'), // March 15, 2026 AoE
+    cameraReady: new Date('2026-06-01T23:59:59Z'), // April 1, 2026 AoE
+    workshop: new Date('2026-07-10T08:00:00Z') // Workshop day (assuming April 25, 2026)
 };
 
 function updateCountdown(targetDate, elementId) {

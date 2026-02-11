@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar">
         <div class="navbar-brand">
-            <a href="https://ai4co.org/workshop" target="_blank">ML&CO @ ICLR'26</a>
+            <a href="https://ai4co.org/workshop" target="_blank">ML&CO @ICML'26</a>
         </div>
         <div class="navbar-icon">Menu</div>
         <div class="navbar-menu">
@@ -26,34 +26,34 @@
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <div class="hero-subtitle">
-                <img src="assets/images/iclr-logo.png" alt="ICLR Logo">
+                <img src="assets/images/icml-logo.png" alt="ICML Logo">
                 <span>Workshop</span>
             </div>
-            <div class="hero-title">From Machine Learning to Combinatorial Optimization and Back</div>
-            <div class="hero-details"><i>April 25th, 2026, Rio de Janeiro, Brazil</i></div>
+            <div class="hero-title">🥥Co-COPT: The Co-evolution of Machine Learning and Combinatorial Optimization</div>
+            <div class="hero-details"><i>July 10th, 2026, Seoul, South Korea </i></div>
         </div>
     </section>
 
     <section class="content-section">
         <h2>Overview</h2>
         <p class="tagline">
-            <strong>Bridging Machine Learning (ML) & Combinatorial Optimization (CO): from ML for CO to CO for ML. Fostering collaboration for breakthroughs, foundation models & real-world impact.</strong>
+            <strong>Bridging Machine Learning (ML) \& Combinatorial Optimization (CO) -- from  ML for CO to CO for ML. Advancing foundations, scalability, and real-world AI-driven decision making. </strong>
         </p>
         <p>
-            Combinatorial optimization (CO) underpins a wide range of real-world applications, including vehicle routing, chip design, smart city planning, and drug discovery. However, developing effective heuristics for diverse CO problems has long been challenging due to their inherently discrete and non-convex nature, which traditionally requires substantial human expertise and manual design. Recent advances in AI have begun to transform this landscape by introducing learning-based heuristics, reinforcement learning, and neural-guided search methods that significantly enhance CO solving. In particular, the emergence of large language models (LLMs) has further automated and generalized heuristic design, enabling CO problems to be approached in a more flexible and efficient manner. These developments make CO not only more practical for complex real-world scenarios but also a fertile ground for advancing fundamental AI methodologies.
+            Machine learning (ML) and combinatorial optimization (CO) are two foundational paradigms for solving large-scale real-world problems. ML maps data into high-dimensional continuous parameter spaces and optimizes models through gradient-based, data-driven learning, enabling breakthroughs in image recognition, language processing, and robotics. In contrast, CO focuses on complex discrete decision-making, leveraging advanced search, sampling, and branch-and-cut algorithms to address challenges in scheduling, planning, routing, hardware/chip design, drug discovery, etc.
         </p>
         <p>
-            At the same time, many core AI challenges can be formulated as CO problems. Examples include (i) discrete sampling: LLM decoding and beam search, discrete diffusion models; (ii) neural‐network design: model pruning, model merging, neural architecture search; and (iii) matching/alignment tasks: object detection, entity matching, cross‐domain alignment. These are not edge cases but fundamental, high‐impact tasks at the heart of modern AI systems.
+            In recent years, the synergy between ML and CO has expanded exponentially. ML has increasingly accelerated CO solvers through automated heuristic discovery, learned search guidance, especially for nonconvex, uncertain, and large-scale problems that are evasive to off-the-shelf human solvers. Reciprocally, CO provides the fundamental reasoning and constrained search frameworks integral to modern ML systems, enhancing their expressiveness, efficiency, and reliability from training to inference. Looking ahead, CO serves a pivotal domain distinguished by different inductive biases (say, from vision and language), such as decision-making landscape representation and reasoning, motivating next-generation AI systems for countless applications. Together, these trends signal a deep co-evolution of ML and CO that is reshaping the future of AI-driven decision-making.
         </p>
         <p>
-            This workshop aims to bridge the gap between the CO and AI communities and encourage deeper collaboration. To highlight impact in both directions, we will feature invited speakers from two complementary tracks: <em>(a) ML for CO Track</em>, with researchers advancing and applying ML methods for CO; and <em>(b) CO for ML Track</em>, with leading researchers introducing powerful tools that can revolutionize AI applications, and particularly advanced search methodologies.
+            The workshop will feature invited speakers across two complementary tracks: <em>(a) ML for CO Track</em>,, focusing on ML-driven methods for CO, and <em>(b) CO for ML Track</em>, showcasing how combinatorial techniques, particularly discrete searching/sampling/reasoning, can enhance ML. By bringing together these perspectives, the workshop aims to capture this emerging direction, foster cross-community dialogue, and position the ML-CO interface as a timely research agenda for the ICML community.
         </p>
     </section>
 
     <section class="content-section">
         <h2>Scope and Goals</h2>
         <p>
-            This workshop explores the growing intersection of machine learning (ML) and combinatorial optimization (CO), with a focus on both ML4CO and CO4ML. We welcome contributions across a wide range of topics within <strong>ML4CO</strong>, including but not limited to <em>Neural-based CO Solvers</em>, <em>GPU-accelerated solvers</em>, <em>Foundation Models for CO</em>, <em>LLM for CO</em>, and <em>Learning-guided Optimization</em>. On the <strong>CO4ML</strong> side, we invite work that applies combinatorial techniques to solve structured machine learning tasks, such as <em>Neural-Network Design</em>, <em>Matching/Alignment tasks</em>, and <em>CO for Discrete Sampling</em>.
+            This workshop explores the growing intersection of machine learning (ML) and combinatorial optimization (CO), with a focus on both ML4CO and CO4ML. We welcome contributions across a wide range of topics within <strong>ML4CO</strong>, including but not limited to <em>Differentiable CO solver</em>, <em>Neural CO solver/Generative CO solver</em>, and <em>Automatic CO Algorithm Discovery</em>. On the <strong>CO4ML</strong> side, we invite works that leverage combinatorial frameworks to address the inherent discrete challenges within structured machine learning tasks, such as <em>Combinatorial Matching&Structural Alignment</em> and <em>Decoding/Search Algorithm for LLMs</em>.
         </p>
         <p>
             By bringing together these communities, we aim to foster new collaborations and inspire innovative research directions at the intersection of ML and CO. By fostering shared understanding and encouraging contributions to common infrastructure—such as benchmarks, scalable tools, and system-level integrations—we hope to accelerate mutual progress and strengthen the foundation for future breakthroughs.
@@ -61,49 +61,81 @@
     </section>
 
     <section class="content-section" id="speakers">
-        <h2>Speakers</h2>
+        <h2>Speakers & Panelists</h2>
         
         <div class="speaker">
             <div class="speaker-image">
-                <img src="assets/photos/speakers/dimitri-bertsekas.jpeg" alt="Dimitri Bertsekas">
+                <img src="assets/photos/organizers/cathy-wu.jpg" alt="Cathy Wu">
             </div>
             <div class="speaker-content">
-                <div class="speaker-name"><a target="_blank" href="https://www.mit.edu/~dimitrib/home.html">Dimitri Bertsekas</a></div>
-                <div class="speaker-affiliation">Arizona State University</div>
+                <div class="speaker-name"><a target="_blank" href="https://www.wucathy.com/">Cathy Wu</a></div>
+                <div class="speaker-affiliation">MIT</div>
                 <div class="speaker-bio">
-                    Dimitri Bertsekas is a distinguished computational scientist and Fulton Professor of Computational Decision Making at Arizona State University. Previously, he spent four decades at MIT (1979-2019), following earlier faculty positions at Stanford University and the University of Illinois, Urbana. He has authored twenty influential books and research monographs, including seminal works on dynamic programming, reinforcement learning, and convex optimization. He earned numerous prestigious awards, including the Khachiyan Prize for Life-Time Accomplishments in Optimization (2014).
+                    Cathy Wu is an associate professor at MIT Department of Civil and Environmental Engineering (CEE) and the Institute for Data, Systems, & Society (IDSS). Her research focuses on using machine learning to tackle the challenging optimization and control problems that are prevalent in transportation systems.
                 </div>
                 <div class="speaker-presentation">
-                    <strong>Topic:</strong> Reinforcement Learning, Dynamic Programming, and Model Predictive Control.
+                    <strong>Topic:</strong> Hybridizing machine learning model-based methods for optimization.
                 </div>
             </div>
         </div>
 
         <div class="speaker">
             <div class="speaker-image">
-                <img src="assets/photos/speakers/christopher-morris.jpg" alt="Christopher Morris">
+                <img src="assets/photos/speakers/changhyun-kwon.jpg" alt="Changhyun Kwon">
             </div>
             <div class="speaker-content">
-                <div class="speaker-name"><a target="_blank" href="https://chrsmrrs.github.io/">Christopher Morris</a></div>
-                <div class="speaker-affiliation">RWTH Aachen University</div>
+                <div class="speaker-name"><a target="_blank" href="https://www.chkwon.net/">Changhyun Kwon</a></div>
+                <div class="speaker-affiliation">KAIST</div>
                 <div class="speaker-bio">
-                    Christopher Morris is an Assistant Professor at RWTH Aachen University, where he leads the Learning on Graphs (LoG) group and holds a DFG Emmy Noether Fellowship. His research focuses on graph representation learning and the intersection of machine learning with combinatorial optimization. Before RWTH, he was a postdoc at Mila - Quebec AI Institute and McGill University, after receiving his Ph.D. from TU Dortmund University.
+                    Changhyun Kwon is Associate Professor in Industrial and Systems Engineering at KAIST. His current focus is to improve the efficiency of heuristic and exact algorithms using machine-learning approaches to solve large-scale vehicle routing problems and mobility service operations problems.
                 </div>
                 <div class="speaker-presentation">
-                    <strong>Topic:</strong> The Connection between ILPs and MPNNs.
+                    <strong>Topic:</strong> Learning-Based Separation Algorithms for Cutting Planes in CO.
                 </div>
             </div>
         </div>
 
         <div class="speaker">
             <div class="speaker-image">
-                <img src="assets/photos/speakers/yingqian-zhang.jpg" alt="Yingqian Zhang">
+                <img src="assets/photos/speakers/alexander-novikov.jpg" alt="Alexander Novikov">
             </div>
             <div class="speaker-content">
-                <div class="speaker-name"><a target="_blank" href="https://www.tue.nl/en/research/researchers/yingqian-zhang">Yingqian Zhang</a></div>
-                <div class="speaker-affiliation">Eindhoven University of Technology</div>
+                <div class="speaker-name"><a target="_blank" href="https://www.linkedin.com/in/alexander-novikov-b0a968a6/">Alexander Novikov</a></div>
+                <div class="speaker-affiliation">Google DeepMind</div>
                 <div class="speaker-bio">
-                    Yingqian Zhang is an Associate Professor in the Information Systems group at Eindhoven University of Technology (TU/e). She develops AI solutions for decision-making, focusing on combining machine learning and deep reinforcement learning with (trustworthy) data-driven optimization and socially aware algorithms. Her work is applied to real-world challenges in smart mobility, sustainable logistics, and the energy transition.
+                    Alexander Novikov is a Research Scientist at Google DeepMind. His work focuses on foundational and applied problems in machine learning, with a particular emphasis on algorithmic discovery. Recently, he has contributed to advances in automated algorithm design for challenging mathematical problems using large language models.
+                </div>
+                <div class="speaker-presentation">
+                    <strong>Topic:</strong> AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery.
+                </div>
+            </div>
+        </div>
+
+        <div class="speaker">
+            <div class="speaker-image">
+                <img src="assets/photos/speakers/junchi-yan.jpg" alt="Junchi Yan">
+            </div>
+            <div class="speaker-content">
+                <div class="speaker-name"><a target="_blank" href="https://thinklab.sjtu.edu.cn">Junchi Yan</a></div>
+                <div class="speaker-affiliation">Shanghai Jiao Tong University</div>
+                <div class="speaker-bio">
+                    Junchi Yan is a Full Professor in the Department of Computer Science and Engineering at Shanghai Jiao Tong University. His research focuses on machine learning for real-world decision-making and intelligent systems. He previously spent 10 years in industry research and advising roles, including at IBM Research and Amazon.
+                </div>
+                <div class="speaker-presentation">
+                    <strong>Topic:</strong> Structure-Aware Learning and Optimization Landscapes in Foundation Models.
+                </div>
+            </div>
+        </div>
+
+        <div class="speaker">
+            <div class="speaker-image">
+                <img src="assets/photos/speakers/cunxi-yu.jpg" alt="Cunxi Yu">
+            </div>
+            <div class="speaker-content">
+                <div class="speaker-name"><a target="_blank" href="https://research.nvidia.com/person/cunxi-yu">Cunxi Yu</a></div>
+                <div class="speaker-affiliation">NVIDIA</div>
+                <div class="speaker-bio">
+                    Cunxi Yu is a Senior Research Scientist at NVIDIA Research. She develops AI solutions for decision-making, focusing on combining machine learning and deep reinforcement learning with data-driven optimization and socially aware algorithms.
                 </div>
                 <div class="speaker-presentation">
                     <strong>Topic:</strong> Application of GNNs and LLMs in Solving Real-World CO Problems.
@@ -113,68 +145,49 @@
 
         <div class="speaker">
             <div class="speaker-image">
-                <img src="assets/photos/speakers/yuandong-tian.jpg" alt="Yuandong Tian">
+                <img src="assets/photos/speakers/maximilian-schiffer.jpg" alt="Maximilian Schiffer">
             </div>
             <div class="speaker-content">
-                <div class="speaker-name"><a target="_blank" href="https://yuandong-tian.com/">Yuandong Tian</a></div>
-                <div class="speaker-affiliation">Meta GenAI</div>
+                <div class="speaker-name"><a target="_blank" href="https://www.ot.mgt.tum.de/osm/team/maximilian-schiffer/">Maximilian Schiffer</a></div>
+                <div class="speaker-affiliation">Technical University of Munich</div>
                 <div class="speaker-bio">
-                    Yuandong Tian is a Research Scientist Director in Meta GenAI, leading a group for Llama reasoning. His research direction covers multiple aspects of decision making, including reinforcement learning, planning and efficiency, as well as theoretical understanding of LLMs. Prior to that, he worked in Google Self-driving Car team in 2013-2014 and received a Ph.D in Robotics Institute, Carnegie Mellon University in 2013.
+                    Maximilian Schiffer is Associate Professor of Business Analytics & Intelligent Systems at TUM School of Management, Technical University of Munich (TUM). His research focuses on developing operations research and prescriptive analytics methods to solve central societal problems, especially in the field of mobility and transportation.
                 </div>
                 <div class="speaker-presentation">
-                    <strong>Topic:</strong> Advancing LLMs and Reasoning with Optimization.
+                    <strong>Topic:</strong> Combinatorial Optimization Augmented Machine Learning.
+                </div>
+            </div>
+        </div>
+
+        <h3 style="margin-top: 3rem; margin-bottom: 2rem;">Panelists</h3>
+
+        <div class="speaker">
+            <div class="speaker-image">
+                <img src="assets/photos/organizers/jinkyoo-park.jpg" alt="Jinkyoo Park">
+            </div>
+            <div class="speaker-content">
+                <div class="speaker-name"><a target="_blank" href="https://pure.kaist.ac.kr/en/persons/jinkyoo-park/">Jinkyoo Park</a></div>
+                <div class="speaker-affiliation">KAIST</div>
+                <div class="speaker-bio">
+                    Jinkyoo Park is an Associate Professor in Industrial and Systems Engineering at KAIST, and also the founder and CEO of Omelet, a startup developing AI-based CO solvers. His research focuses on AI-based CO, reinforcement learning, and ML for industrial applications, as well as data-driven decision-making.
                 </div>
             </div>
         </div>
 
         <div class="speaker">
             <div class="speaker-image">
-                <img src="assets/photos/speakers/yiming-yang.jpg" alt="Yiming Yang">
+                <img src="assets/photos/speakers/hyeonah-kim.jpg" alt="Hyeonah Kim">
             </div>
             <div class="speaker-content">
-                <div class="speaker-name"><a target="_blank" href="https://www.cs.cmu.edu/~yiming/">Yiming Yang</a></div>
-                <div class="speaker-affiliation">Carnegie Mellon University</div>
+                <div class="speaker-name"><a target="_blank" href="https://hyeonahkimm.github.io/">Hyeonah Kim</a></div>
+                <div class="speaker-affiliation">Mila & Université de Montréal</div>
                 <div class="speaker-bio">
-                    Yiming Yang is a Full Professor at Carnegie Mellon University (CMU), affiliated with both the Language Technologies Institute and the Machine Learning Department. Her research interests span large language models, multimodal foundation models, and generative AI for science. She has published over 400 papers, with multiple best paper awards at KDIR, SIGKDD, IJCAI, SCAMC and NCIP.
-                </div>
-                <div class="speaker-presentation">
-                    <strong>Topic:</strong> ML-Guided Sampling Methods for Combinatorial Optimization.
-                </div>
-            </div>
-        </div>
-
-        <div class="speaker">
-            <div class="speaker-image">
-                <img src="assets/photos/organizers/cathy-wu.jpg" alt="Cathy Wu">
-            </div>
-            <div class="speaker-content">
-                <div class="speaker-name"><a target="_blank" href="https://viterbi.usc.edu/directory/faculty/Dilkina/Bistra">Cathy Wu</a></div>
-                <div class="speaker-affiliation">MIT</div>
-                <div class="speaker-bio">
-                    Cathy Wu is an Associate Professor at MIT in LIDS, CEE, and IDSS. She holds a PhD from UC Berkeley, and BS and MEng from MIT, all in EECS, and completed a Postdoc at Microsoft Research. Her research lies at the intersection of machine learning, control, and mobility. Her recent research focuses on how learning-enabled methods can better cope with the complexity, diversity, and scale of control and operations in mobility systems. She is broadly interested in developing principled computational tools to enable reliable decision-making in sociotechnical systems.
-                </div>
-                <div class="speaker-presentation">
-                    <strong>Topic:</strong> Learning-guided Optimization for Complex Systems.
+                    Hyeonah Kim is a postdoctoral researcher at Mila and Université de Montréal. Her research interests lie in scientific discovery with deep learning, with a particular interest in GFlowNets, active learning, and sample-efficient training.
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="content-section" id="financial-support">
-        <h2>Financial Support</h2>
-        <p>We plan to offer the following financial support: 1) <strong>Registration Fee Grants</strong> for individuals experiencing economic hardship and members of underrepresented groups, and 2) a <strong>Best Paper Award</strong>. We are pleased to announce that the following companies have agreed to offer financial sponsorship:</p>
-        
-        <div class="sponsors-grid">
-            <div class="sponsor">
-                <div class="sponsor-logo">
-                    <img src="assets/logos/omelet-logo.png" alt="OMELET Logo">
-                </div>
-                <!-- <div class="sponsor-name">OMELET</div> -->
-            </div>
-        </div>
-        
-        <p>We plan to seek additional sponsorships from leading companies to further broaden the workshop's accessibility.</p>
-    </section>
 
     <section class="content-section" id="call-for-papers">
         <h2>Call For Papers</h2>
@@ -183,12 +196,12 @@
             <h3>TL;DR:</h3>
             <ul>
                 <li><strong>Length:</strong> 4-8 pages (not including references and appendix)</li>
-                <li><strong>Formatting:</strong> <a href="https://iclr.cc/Conferences/2026/WorkshopGuide">ICLR latex style</a>. Please change the footnote to reflect the name of the workshop.</li>
+                <li><strong>Formatting:</strong> <a href="https://icml.cc/Conferences/2026/AuthorInstructions">ICML latex style</a>. Please change the footnote to reflect the name of the workshop.</li>
                 <li><strong>Dual Submission Policy:</strong> We accept submissions of ongoing unpublished work and work that is currently under submission.</li>
                 <li><strong>No Proceedings:</strong> The workshop is non-archival, which means you can submit the same or extended work as a publication to other venues after the workshop.</li>
-                <li><strong>Submission Deadline:</strong> February 15, 2026</li>
-                <li><strong>Notification Deadline:</strong> March 15, 2026</li>
-                <li><strong>Camera-Ready Deadline:</strong> April 1, 2026</li>
+                <li><strong>Submission Deadline:</strong> April 15, 2026</li>
+                <li><strong>Notification Deadline:</strong> May 15, 2026</li>
+                <li><strong>Camera-Ready Deadline:</strong> June 1, 2026</li>
                 <li><strong>Submission Portal:</strong> <a href="#">OpenReview</a></li>
             </ul>
         </div>
@@ -218,13 +231,13 @@
         <table class="schedule-table">
             <thead>
                 <tr>
-                    <th>Time (PDT)</th>
+                    <th>Time (KST)</th>
                     <th>Event</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td class="time-cell">08:15 - 08:30</td>
+                    <td class="time-cell">08:20 - 08:30</td>
                     <td class="event-cell">
                         <div class="event-type">Opening</div>
                         <div class="event-title">Opening Remarks</div>
@@ -234,91 +247,92 @@
                     <td class="time-cell">08:30 - 09:00</td>
                     <td class="event-cell">
                         <div class="event-type">Morning Keynote</div>
-                        <div class="event-title"><span class="event-speaker">Dimitri Bertsekas</span></div>
+                        <div class="event-title"><span class="event-speaker">Cathy Wu (MIT)</span></div>
                     </td>
                 </tr>
                 <tr>
                     <td class="time-cell">09:00 - 09:30</td>
                     <td class="event-cell">
                         <div class="event-type">Morning Keynote</div>
-                        <div class="event-title"><span class="event-speaker">Christopher Morris</span></div>
+                        <div class="event-title"><span class="event-speaker">Changhyun Kwon (KAIST)</span></div>
                     </td>
                 </tr>
                 <tr>
                     <td class="time-cell">09:30 - 10:00</td>
                     <td class="event-cell">
                         <div class="event-type">Morning Keynote</div>
-                        <div class="event-title"><span class="event-speaker">Yingqian Zhang</span></div>
+                        <div class="event-title"><span class="event-speaker">Alexander Novikov (Google DeepMind)</span></div>
                     </td>
                 </tr>
                 <tr>
-                    <td class="time-cell">10:00 - 10:20</td>
+                    <td class="time-cell">10:00 - 11:00</td>
                     <td class="event-cell">
-                        <div class="event-type">Break</div>
-                        <div class="event-title">Coffee Break</div>
+                        <div class="event-type">Session</div>
+                        <div class="event-title">Poster Session / Break</div>
                     </td>
                 </tr>
                 <tr>
-                    <td class="time-cell">10:20 - 11:00</td>
+                    <td class="time-cell">11:00 - 11:40</td>
                     <td class="event-cell">
                         <div class="event-type">Session</div>
                         <div class="event-title">Oral Presentations (8 min each, 5 selected workshop papers)</div>
                     </td>
                 </tr>
                 <tr>
-                    <td class="time-cell">11:00 - 12:30</td>
-                    <td class="event-cell">
-                        <div class="event-type">Session</div>
-                        <div class="event-title">Poster Session for Workshop Papers</div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="time-cell">12:30 - 14:00</td>
+                    <td class="time-cell">11:40 - 13:00</td>
                     <td class="event-cell">
                         <div class="event-type">Break</div>
                         <div class="event-title">Lunch Break</div>
                     </td>
                 </tr>
                 <tr>
+                    <td class="time-cell">13:00 - 13:30</td>
+                    <td class="event-cell">
+                        <div class="event-type">Afternoon Keynote</div>
+                        <div class="event-title"><span class="event-speaker">Junchi Yan (SJTU)</span></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="time-cell">13:30 - 14:00</td>
+                    <td class="event-cell">
+                        <div class="event-type">Afternoon Keynote</div>
+                        <div class="event-title"><span class="event-speaker">Cunxi Yu (NVIDIA)</span></div>
+                    </td>
+                </tr>
+                <tr>
                     <td class="time-cell">14:00 - 14:30</td>
                     <td class="event-cell">
                         <div class="event-type">Afternoon Keynote</div>
-                        <div class="event-title"><span class="event-speaker">Yuandong Tian</span></div>
+                        <div class="event-title"><span class="event-speaker">Maximilian Schiffer (TUM)</span></div>
                     </td>
                 </tr>
                 <tr>
-                    <td class="time-cell">14:30 - 15:00</td>
-                    <td class="event-cell">
-                        <div class="event-type">Afternoon Keynote</div>
-                        <div class="event-title"><span class="event-speaker">Yiming Yang</span></div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="time-cell">15:00 - 15:30</td>
-                    <td class="event-cell">
-                        <div class="event-type">Afternoon Keynote</div>
-                        <div class="event-title"><span class="event-speaker">Cathy Wu</span></div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="time-cell">15:30 - 16:30</td>
+                    <td class="time-cell">14:30 - 15:30</td>
                     <td class="event-cell">
                         <div class="event-type">Session</div>
-                        <div class="event-title">Breakout Roundtable Sessions: "ML for CO" and "CO for ML"</div>
+                        <div class="event-title">Poster Session / Break</div>
                     </td>
                 </tr>
                 <tr>
-                    <td class="time-cell">16:30 - 17:30</td>
+                    <td class="time-cell">15:30 - 16:15</td>
+                    <td class="event-cell">
+                        <div class="event-type">Session</div>
+                        <div class="event-title">Breakout Roundtable: The Future of <i>ML for CO</i> and <i>CO for ML</i></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="time-cell">16:15 - 16:45</td>
                     <td class="event-cell">
                         <div class="event-type">Panel Discussion</div>
-                        <div class="event-title">"What are the Killer Apps of ML for CO and CO for ML?"</div>
+                        <div class="event-title">"<i>Mind Map of CO-ML Co-evolution</i>"</div>
+                        <div class="event-details">Panel Leads: <span class="event-speaker">Jinkyoo Park (KAIST)</span> and <span class="event-speaker">Hyeonah Kim (Mila)</span></div>
                     </td>
                 </tr>
                 <tr>
-                    <td class="time-cell">17:30 - 18:00</td>
+                    <td class="time-cell">16:45 - 17:00</td>
                     <td class="event-cell">
                         <div class="event-type">Closing</div>
-                        <div class="event-title">Closing Remarks and Social Events</div>
+                        <div class="event-title">Closing Remarks & Social Events</div>
                     </td>
                 </tr>
             </tbody>
@@ -335,13 +349,13 @@
                 <div class="organizer-name">Sirui Li</div>
                 <div class="organizer-affiliation">Senior Research Engineer, Microsoft Research</div>
             </div>
-            <div class="organizer">
+            <!-- <div class="organizer">
                 <div class="organizer-image">
                     <img src="assets/photos/organizers/federico-berto.jpg" alt="Federico Berto">
                 </div>
                 <div class="organizer-name">Federico Berto</div>
                 <div class="organizer-affiliation">PhD Student, KAIST</div>
-            </div>
+            </div> -->
             <div class="organizer">
                 <div class="organizer-image">
                     <img src="assets/photos/organizers/yining-ma.jpg" alt="Yining Ma">
@@ -356,33 +370,19 @@
                 <div class="organizer-name">Zhiguang Cao</div>
                 <div class="organizer-affiliation">Assistant Professor, SMU</div>
             </div>
-            <div class="organizer">
+            <!-- <div class="organizer">
                 <div class="organizer-image">
                     <img src="assets/photos/organizers/ido-greenberg.jpg" alt="Ido Greenberg">
                 </div>
                 <div class="organizer-name">Ido Greenberg</div>
                 <div class="organizer-affiliation">Senior Research Scientist, NVIDIA</div>
-            </div>
+            </div> -->
             <div class="organizer">
                 <div class="organizer-image">
                     <img src="assets/photos/organizers/eli-meirom.jpg" alt="Eli Meirom">
                 </div>
                 <div class="organizer-name">Eli Meirom</div>
                 <div class="organizer-affiliation">Senior Research Scientist, NVIDIA</div>
-            </div>
-            <div class="organizer">
-                <div class="organizer-image">
-                    <img src="assets/photos/organizers/fei-liu.jpg" alt="Fei Liu">
-                </div>
-                <div class="organizer-name">Fei Liu</div>
-                <div class="organizer-affiliation">Postdoctoral Researcher, CityUHK</div>
-            </div>
-            <div class="organizer">
-                <div class="organizer-image">
-                    <img src="assets/photos/organizers/chuanbo-hua.jpg" alt="Chuanbo Hua">
-                </div>
-                <div class="organizer-name">Chuanbo Hua</div>
-                <div class="organizer-affiliation">PhD Student, KAIST</div>
             </div>
             <div class="organizer">
                 <div class="organizer-image">
@@ -393,24 +393,10 @@
             </div>
             <div class="organizer">
                 <div class="organizer-image">
-                    <img src="assets/photos/organizers/weiwei-sun.jpg" alt="Weiwei Sun">
+                    <img src="assets/photos/organizers/yoonju-sim.jpg" alt="Yoonju Sim">
                 </div>
-                <div class="organizer-name">Weiwei Sun</div>
-                <div class="organizer-affiliation">PhD Student, CMU</div>
-            </div>
-            <div class="organizer">
-                <div class="organizer-image">
-                    <img src="assets/photos/organizers/gal-chechik.jpg" alt="Gal Chechik">
-                </div>
-                <div class="organizer-name">Gal Chechik</div>
-                <div class="organizer-affiliation">Professor, Bar-Ilan University & Director of AI, NVIDIA</div>
-            </div>
-            <div class="organizer">
-                <div class="organizer-image">
-                    <img src="assets/photos/organizers/jinkyoo-park.jpg" alt="Jinkyoo Park">
-                </div>
-                <div class="organizer-name">Jinkyoo Park</div>
-                <div class="organizer-affiliation">Founder & CEO, Omelet & Associate Professor, KAIST</div>
+                <div class="organizer-name">Yoonju Sim</div>
+                <div class="organizer-affiliation">PhD Student, KAIST</div>
             </div>
         </div>
     </section>
@@ -439,12 +425,14 @@
         <!-- <p>Rio de Janeiro, Brazil</p> -->
         <div class="venue-content">
             <div class="venue-image">
-                <img src="assets/images/brazil.jpg" alt="ICLR 2026 Venue">
+                <img src="assets/images/seoul.png" alt="ICML 2026 Venue">
             </div>
             <div class="venue-info">
                 <div class="venue-map">
-                    <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.9546!2d-43.2105!3d-22.9068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f58a6a00a9d%3A0x3f251d85272f76f7!2sRio%20de%20Janeiro%2C%20State%20of%20Rio%20de%20Janeiro%2C%20Brazil!5e0!3m2!1sen!2sus!4v1652889000000!5m2!1sen!2sus"
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.840375717258!2d127.05915100000001!3d37.5116828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca536e4738c97%3A0x336c7537649c9fe4!2z7L2U7JeR7Iqk!5e0!3m2!1sko!2skr!4v1770833712557!5m2!1sko!2skr" 
+                        width="600" 
+                        height="450" 
+                        style="border:0;" 
                         allowfullscreen="" 
                         loading="lazy" 
                         referrerpolicy="no-referrer-when-downgrade">
@@ -475,7 +463,7 @@
                         <ul>
                             <li><a href="https://github.com/ai4co">GitHub <svg data-v-67d7128c="" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="a-icon--arrow-north-east400 a-icon--text a-icon--no-align top-[0.05em] relative f-ui-1 ml-2 -mr-4" data-new="" aria-hidden="true" style="width: 1em; height: 1em;"><polygon data-v-67d7128c="" fill="currentColor" points="5 4.31 5 5.69 9.33 5.69 2.51 12.51 3.49 13.49 10.31 6.67 10.31 11 11.69 11 11.69 4.31 5 4.31"></polygon></svg></a></li>
                             <li><a href="https://join.slack.com/t/rl4co/shared_invite/zt-1ytz2c1v4-0IkQ8NQH4TRXIX8PrRmDhQ">Slack <svg data-v-67d7128c="" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="a-icon--arrow-north-east400 a-icon--text a-icon--no-align top-[0.05em] relative f-ui-1 ml-2 -mr-4" data-new="" aria-hidden="true" style="width: 1em; height: 1em;"><polygon data-v-67d7128c="" fill="currentColor" points="5 4.31 5 5.69 9.33 5.69 2.51 12.51 3.49 13.49 10.31 6.67 10.31 11 11.69 11 11.69 4.31 5 4.31"></polygon></svg></a></li>
-                            <li><a href="mailto:ml4co.iclr.2026@gmail.com">Contact <svg data-v-67d7128c="" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="a-icon--arrow-north-east400 a-icon--text a-icon--no-align top-[0.05em] relative f-ui-1 ml-2 -mr-4" data-new="" aria-hidden="true" style="width: 1em; height: 1em;"><polygon data-v-67d7128c="" fill="currentColor" points="5 4.31 5 5.69 9.33 5.69 2.51 12.51 3.49 13.49 10.31 6.67 10.31 11 11.69 11 11.69 4.31 5 4.31"></polygon></svg></a></li>
+                            <li><a href="mailto:yoonju.sim@comet.kaist.ac.kr">Contact <svg data-v-67d7128c="" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="a-icon--arrow-north-east400 a-icon--text a-icon--no-align top-[0.05em] relative f-ui-1 ml-2 -mr-4" data-new="" aria-hidden="true" style="width: 1em; height: 1em;"><polygon data-v-67d7128c="" fill="currentColor" points="5 4.31 5 5.69 9.33 5.69 2.51 12.51 3.49 13.49 10.31 6.67 10.31 11 11.69 11 11.69 4.31 5 4.31"></polygon></svg></a></li>
                         </ul>
                     </div>
                 </div>
