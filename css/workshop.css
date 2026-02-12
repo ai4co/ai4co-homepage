@@ -967,7 +967,7 @@ body {
         gap: 30px;
         text-align: center;
     }
-    
+
     .footer-columns {
         grid-template-columns: 1fr;
         gap: 20px;
