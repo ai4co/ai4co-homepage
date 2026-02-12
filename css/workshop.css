@@ -581,14 +581,12 @@ body {
 }
 
 .event-speaker {
-    color: #DC3512;
+    color: #000;
     text-decoration: underline;
-    text-decoration-color: #DC3512;
 }
 
 .event-speaker:hover {
-    color: #ff421d;
-    text-decoration-color: #ff421d;
+    color: #000;
 }
 
 /* Venue Section */
