@@ -462,7 +462,9 @@ body {
     object-fit: cover;
 }
 
-.organizer-name {
+.organizer-name,
+.organizer-name a,
+.organizer-name a:hover {
     color: #333;
     font-size: 1.2rem;
     font-weight: 600;
